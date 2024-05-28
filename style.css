@@ -1,0 +1,118 @@
+.a {
+    text-decoration: none;
+}
+.navbar {
+    background-color: rgb(2, 22, 59);
+    
+}
+.bg{
+    background-color: rgb(6, 9, 30);
+}
+.nav-link{
+    color: white;
+}
+#sym i{
+    color: white;
+}
+
+#box{
+    margin: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#box h1{
+    color: rgb(244, 244, 244);
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+.contact{
+    margin-top: 30px;
+    text-align: center;
+}
+.contact i{
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(246, 246, 246);
+}
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+#ani {
+    color: white;
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    border-right: 3px solid orangered;
+    animation: typing 3.5s steps(40, end) alternate infinite, blink-text .5s step-end infinite;
+}
+@keyframes typing {
+    from {
+        width:0;
+    }
+    to {
+        width:104%
+    }
+}
+@keyframes blink-text {
+    from, 
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orangered;
+    }
+}
+.about, .education, .con{
+    padding: 60px;
+}
+.img img{
+    width: 400px
+}
+.content {
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+.content i{
+    color: rgb(21, 232, 21);
+}
+.bg1{
+    background-color: rgb(2, 22, 59);
+    color: white;
+    /* transition: all 1s ; */
+}
+.bg1:hover {
+    background-color:rgb(5, 38, 99);
+}
+.tec {
+    justify-content: start;
+}
+.rel {
+    text-align: left;
+    margin: 0px;
+}
+.certi {
+    width: 350px;
+    height: 150px;
+}
+@media screen and (max-width:1510px){
+    .certi {
+        width: 280px;
+        height: 150px;
+    }
+}
+@media (max-width:769px){
+    .certi {
+        width: 350px;
+        height: 150px;
+    }
+}
+/* .prof p{
+    margin-bottom: 0%;
+} */
