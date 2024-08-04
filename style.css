@@ -72,7 +72,7 @@
 }
 .aboutInner img {
     width: 20em;
-    height: 20em;
+    height: 27em;
     box-shadow: 2px 2px 10px rgb(238, 20, 20);
 }
 .fa-angle-right{
@@ -83,4 +83,21 @@
     width: 20em;
    }
     
+}
+
+/* Interest */
+.col-12 {
+    background-color: #ae1010;
+}
+@media (max-width:576px) {
+    .col-12 {
+        margin: 2em;
+    }
+}
+
+/* projects */
+@media (min-width:575) and (max-width:732) {
+    .pro {
+        font-size: x-small;
+    }
 }
