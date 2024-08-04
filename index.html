@@ -6,10 +6,73 @@
     <title>My_portfolio</title>
     <!-- bootstrap css -->
      <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+     <!-- font-awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
      <!-- custom css -->
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-md py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold">PORTFOLIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-pills" id="portfolio">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 text-center border-0">
+              <li class="nav-item">
+                <a class="nav-link">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="education.html">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skill.html">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESUME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- home -->
+     <div class="home text-center bg-danger mb-5">
+      <h1 id="name" class="pb-1">RAVI DURGA PRASAD</h1>
+      <h3 class="pb-1">I am Full STack Web Developer</h3>
+      <i class="fa-brands fa-linkedin" style="color: #1a1919;"></i>
+      <i class="fa-brands fa-square-github" style="color: #1a1919;"></i>
+      <i class="fa-brands fa-google" style="color: #1a1919;"></i>
+      <i class="fa-brands fa-instagram" style="color: #1a1919;"></i>
+     </div>
+
+     <!-- about -->
+      <div class="about">
+        <h1>About</h1>
+        <div class="aboutInner p-2">
+          <img src="Images/photo.jpg" class="float-sm-start d-block mx-auto mx-sm-3 mt-sm-2">
+          <p class="lead p-3 fs-5">Hardworking student seeking employment in the field of full stack web development. Ready to utilize my skills and passion to further mission of company. Technologically adept. Bringing forth a positive attitude and the willingness and motivative to learn new programs."Proficient in full stack web development, adept at both front-end and back-end technologies. Skilled in creating responsive and dynamic web applications using technologies such as Html, Css, JavaScript, JQuery, bootstrap-5, Php. Experienced in database management (SQL, NoSQL) and deploying applications on cloud platforms. Strong problem-solving abilities and a keen eye for user-centric design."</p>
+          <ul class="list-unstyled p-3">
+            <li><i class="fa-solid fa-angle-right"></i><span class="fw-bold"> Birthday:</span> 15th July 2003</li>
+            <li><i class="fa-solid fa-angle-right"></i><span class="fw-bold"> Phone:</span> +91 9392382966</li>
+            <li><i class="fa-solid fa-angle-right"></i><span class="fw-bold"> City:</span> Visakhapatnam, AndhraPradesh 531025</li>
+            <li><i class="fa-solid fa-angle-right"></i><span class="fw-bold"> Email:</span> ravidurgaprasad160@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+
+    <!-- <h1>hello worls</h1> -->
     
     <!-- custom js -->
     <script src="js/script.js"></script>
