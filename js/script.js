@@ -14,3 +14,12 @@ function checkEff(){
         }
     })   
 }
+
+// auto Type 
+
+var typed = new Typed('.autoType', {
+    strings: ["Full Stack Web Developer", "Web Developer", "Frontend Developer"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+});
