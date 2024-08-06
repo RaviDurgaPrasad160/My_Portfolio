@@ -14,7 +14,7 @@
    box-shadow: none;
 }
 .nav-link {
-    color: #ffff;
+    color: #00fffb;
 }
 .navbar-nav{
     margin-left: 10%;
@@ -23,6 +23,16 @@
     border-bottom: 1px solid #00000037;
     margin-right: 5%;
 }
+.nav-link:visited {
+    text-shadow: 2px 2px 10px #ff00a6;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.nav-item:hover {
+    text-shadow: 2px 2px 10px #ff00a6;
+    cursor: pointer;
+}
+
 @media (max-width:1055px) {
     .navbar-nav{
         margin-left: 6%;
@@ -44,6 +54,16 @@
         border-bottom: none;
     }
 }
+/* common css for all elements */
+h2 {
+    text-shadow: 2px 2px 5px #ee1414;
+}
+.img-thumbnail{
+    box-shadow: 4px 4px 7px #ee1414, -4px -4px 7px #ee1414;
+}
+.skwid {
+    box-shadow: 4px 4px 7px #ee1414, -4px -4px 7px #ee1414;
+}
 
 /* home */
 
@@ -57,12 +77,12 @@
    font-family: "Metal Mania", system-ui;
    letter-spacing: 0.15em;
    font-size: 3.5em;
-   text-shadow: 2px 2px 10px rgb(238, 20, 20);
+   text-shadow: 2px 2px 10px #ee1414;
 }
 .home i{
     font-size: 2em;
     padding: 0.15em;
-    text-shadow: 2px 2px 10px rgb(238, 20, 20);
+    text-shadow: 2px 2px 10px #ee1414;
 }
 
 /* about */
@@ -86,7 +106,7 @@
 }
 
 /* Interest */
-.col-12 {
+.bg1 {
     background-color: #ae1010;
 }
 @media (max-width:576px) {
@@ -96,8 +116,32 @@
 }
 
 /* projects */
-@media (min-width:575) and (max-width:732) {
-    .pro {
-        font-size: x-small;
+.fw-bold {
+    color: #000000;
+}
+.wid {
+    width: 398px;
+    height: 224px;
+}
+@media (min-width:576px) and (max-width:768px) {
+    .wid {
+        width: 280px;
+        height: 150px;
     }
+}
+/* Skills */
+.skwid {
+    width: 150px;
+}
+@media (max-width:576px) {
+    /* .skills{
+        display: flex;
+        flex-direction: column;
+    } */
+     h2 {
+        font-size: small;
+     }
+     .skwid{
+        width: 150px;
+     }
 }
