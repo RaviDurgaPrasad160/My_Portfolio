@@ -111,9 +111,6 @@ h2 {
     background-image: linear-gradient(#080101d0, #ae1010);
     color: #ffff;
 }
-.lead {
- text-align: justify;
-}
 .aboutInner img {
     width: 20em;
     height: 27em;
@@ -144,7 +141,7 @@ h2 {
     color: #000000;
 }
 .wid {
-    width: 398px;
+    width: 380px;
     height: 224px;
 }
 @media (min-width:576px) and (max-width:768px) {
